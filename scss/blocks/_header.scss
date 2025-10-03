@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--page-bg);
+  padding: 50px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Tablet */
+@media (max-width: 1200px) {
+  .header__nav {
+    display: none;
+  }
+}
+/* Tablet */
+/* Mobile */
+@media (max-width: 899px) {
+    .header {
+        padding: 20px 0;
+    } 
+}

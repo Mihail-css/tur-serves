@@ -88,57 +88,65 @@ legend {
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../../fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
+  src: url("./../fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../../fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+  src: url("./../fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../../fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
+  src: url("./../fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
+  display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: local("montserrat"), url("../../fonts/montserrat/Montserrat-Black.woff2") format("woff2");
+  src: url("./../fonts/montserrat/Montserrat-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
+  display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: local("montserrat"), url("../../fonts/montserrat/Montserrat-light.woff2") format("woff2");
+  src: url("./../fonts/montserrat/Montserrat-light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
+  display: swap;
 }
 @font-face {
   font-family: "Roboto";
+  src: url("./../fonts/roboto/roboto-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  src: url("../../fonts/roboto/roboto-regular.woff2") format("woff2");
+  display: swap;
 }
 @font-face {
   font-family: "Roboto";
+  src: url("./../fonts/roboto/Robotobold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  src: url("../../fonts/roboto/Robotobold.woff2") format("woff2");
+  display: swap;
 }
 @font-face {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
-  src: url("../../fonts/roboto/Robotomedium.woff2") format("woff2");
+  src: url("./../fonts/roboto/Robotomedium.woff2") format("woff2");
+  display: swap;
 }
 @font-face {
   font-family: "Roboto";
   font-weight: 300;
   font-style: normal;
   src: url("../../fonts/roboto/Robotolight.woff2") format("woff2");
+  display: swap;
 }
 :root {
   --container-width: 1250px;

@@ -1,0 +1,51 @@
+//tur-page
+.tur {
+  text-align: center;
+  color: black;
+
+  span {
+    font-weight: 600;
+  }
+}
+
+.tur-row {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+
+
+.tur__img {
+  border-radius: var(--radius);
+  padding-bottom: 10px;
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tur__page-wrapper {
+  text-align: start;
+ 
+}
+
+.tur__page-subtitle {
+margin-bottom: 10px;
+}
+
+
+
+/* Mobile */
+@media (max-width: 899px) {
+    .tur-row {
+        grid-template-columns: 1fr;
+    }
+    .tur__img  {
+        width: 100%;
+    }
+
+}

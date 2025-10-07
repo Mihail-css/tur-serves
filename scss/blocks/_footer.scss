@@ -1,5 +1,10 @@
 .footer {
-    
-    color:green;
-
+  padding: 60px 0;
+  background-color: #e3e3e3;
+}
+/* Mobile */
+@media (max-width: 899px) {
+  .footer {
+    padding: 40px 0;
+  }
 }

@@ -373,7 +373,7 @@ p + p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -530,6 +530,7 @@ p + p {
 
 .hero__subtitle {
   font-family: var(--font-accent);
+  text-align: center;
 }
 
 .link {
@@ -741,6 +742,10 @@ p + p {
 .footer {
   padding: 60px 0;
   background-color: #f5f1f1;
+}
+
+.footer-desc {
+  margin-bottom: 5px;
 }
 
 /* Mobile */

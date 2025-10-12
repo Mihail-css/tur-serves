@@ -162,7 +162,7 @@ legend {
   --laptop-size: 1199px;
   --tablet-size: 959px;
   --mobile-size: 599px;
-  --option-width: 70px;
+  --option-width:70px;
   --gutter: 10px;
   --radius: 1.875rem;
   --bg: #f5f5f5;
@@ -657,7 +657,10 @@ p + p {
     width: 100%;
   }
   .wrapper {
-    height: 100vh;
+    height: 120vh;
+  }
+  .wrapper.container {
+    padding: 0 5px;
   }
 }
 .tur {

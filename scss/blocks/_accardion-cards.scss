@@ -7,14 +7,12 @@
   margin-bottom: 20px;
 }
 
-
-
 .options {
   display: flex;
   // min-width: 500px;
   // max-width: calc(var(--total-options) * 130px);
   // height: var(--option-height);
-  width: 90%;
+  width: 100%;
 
   flex-direction: column;
   // min-height: 100vh;
@@ -81,5 +79,4 @@
   .wrapper.container {
     padding: 0 5px;
   }
- 
 }

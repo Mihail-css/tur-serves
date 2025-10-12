@@ -599,7 +599,7 @@ p + p {
 
 .options {
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: column;
 }
 
@@ -652,12 +652,10 @@ p + p {
 @media (max-width: 768px) {
   .options {
     flex-direction: column;
-    min-height: 100vh;
-    min-width: auto;
     width: 100%;
   }
   .wrapper {
-    min-height: 120vh;
+    min-height: 125vh;
   }
   .wrapper.container {
     padding: 0 5px;

@@ -657,7 +657,7 @@ p + p {
     width: 100%;
   }
   .wrapper {
-    height: 120vh;
+    min-height: 120vh;
   }
   .wrapper.container {
     padding: 0 5px;

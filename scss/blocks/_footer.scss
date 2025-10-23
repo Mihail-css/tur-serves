@@ -1,13 +1,16 @@
 .footer {
   padding: 60px 0;
-  background-color:#d9ecf3;
+  background-color: #d9ecf3;
 }
 
 // #f5f1f1;
 .footer-desc {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
+.footer-desc a {
+  color: #000;
+}
 
 /* Mobile */
 @media (max-width: 899px) {

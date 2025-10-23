@@ -2,3 +2,11 @@
     width: 120px;
 
 }
+.logo-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family:var(--font-hel);
+    // font-weight: var( --font-accent);
+    font-weight: 600;
+}

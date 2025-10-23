@@ -65,3 +65,18 @@
   display: swap;
 }
 
+//helvenica
+@font-face {
+  font-family: "Helvenica";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../../fonts/helvenica/Helvetica-Bold.woff2") format("woff2");
+  display: swap;
+}
+@font-face {
+  font-family: "Helvenica";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/helvenica/Helvetica.woff2") format("woff2");
+  display: swap;
+}

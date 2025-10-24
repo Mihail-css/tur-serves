@@ -1,6 +1,6 @@
 .beach-holiday {
   position: relative;
-  background-image: url(../../img/beach-holidays/beach-holadays.jpg);
+  background-image: url(.././img/beach-holidays/beach-holadays.jpg);
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -39,4 +39,11 @@
         height: 400px;
         width: 98%;
     }
+}
+
+/* Mobile XS */
+@media (max-width:390px) {
+ .title-1 {
+    font-size: 24px;
+ }
 }

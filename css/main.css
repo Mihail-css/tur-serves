@@ -725,7 +725,7 @@ p + p {
 .logo-row {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-family: var(--font-hel);
   font-weight: 600;
 }

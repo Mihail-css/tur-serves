@@ -22,8 +22,15 @@
 }
 
 .mobile-nav a {
+  font-family: var(--font-accent);
+  
   color: #000;
+  &:hover {
+    opacity: 0.5;
+  }
 }
+
+
 
 .mobile-nav__list {
   display: flex;

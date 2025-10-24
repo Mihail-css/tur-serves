@@ -509,7 +509,11 @@ p + p {
 }
 
 .mobile-nav a {
+  font-family: var(--font-accent);
   color: #000;
+}
+.mobile-nav a:hover {
+  opacity: 0.5;
 }
 
 .mobile-nav__list {

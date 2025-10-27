@@ -1,13 +1,20 @@
 .social {
-    display: flex;
-   align-items: center;
-   gap: 10px;
-   padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-top: 8px;
 }
 .social__img {
-    width: 28px;
-}
-.social__img:hover {
+  width: 28px;
     transition: all 0.2s ease-in;
-  transform: scale(1.2 ,1.2);
+}
+
+.social__img--big {
+  width: 48px;
+}
+
+.social__img:hover {
+
+  transform: scale(1.2, 1.2);
 }

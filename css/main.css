@@ -208,6 +208,10 @@ a {
   color: var(--link-color);
 }
 
+a:hover {
+  opacity: 0.7;
+}
+
 code {
   background-color: #e9f1f6;
   padding: 0.2rem;
@@ -890,7 +894,7 @@ p + p {
 }
 
 .footer {
-  padding: 60px 0;
+  padding-top: 60px;
   background-color: #d9ecf3;
 }
 
@@ -898,13 +902,19 @@ p + p {
   margin-bottom: 10px;
 }
 
-.footer-desc a {
+.tel a {
   color: #000;
 }
 
 /* Mobile */
 @media (max-width: 899px) {
   .footer {
-    padding: 40px 0;
+    padding-top: 40px;
   }
+}
+.meta {
+  background-color: burlywood;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */

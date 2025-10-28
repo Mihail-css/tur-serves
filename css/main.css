@@ -893,6 +893,19 @@ p + p {
   height: 100%;
 }
 
+.detail {
+  text-align: center;
+  margin: 10px 0;
+  border: 1px solid var(--border);
+  padding: 7px;
+  border-radius: var(--radius);
+}
+
+.detail a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 .footer {
   padding-top: 60px;
   background-color: #d9ecf3;
